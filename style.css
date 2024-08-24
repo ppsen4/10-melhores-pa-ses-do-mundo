@@ -1,0 +1,121 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: url(img/White\ Blue\ Minimalist\ Linktree\ Background.png);
+  background-position: 0em;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner{
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    padding: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;  
+}
+.banner img{
+    width: 90vw;   
+    height: 82vh;  
+}
+
+.pais {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: 20px 0;
+    padding: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 30px;
+}
+
+.pais:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.pais h2 {
+    margin-top: 0;
+}
+
+.pais a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.pais a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+#img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 300px;          
+    
+      
+}
+#img img{
+    border-radius: 20px;
+    width: 400px;   
+    height: auto;   
+      
+}
+#logo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;   
+}
+#logo img{
+    width: 200px;   
+    height: auto; 
+}
